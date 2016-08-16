@@ -41,7 +41,9 @@ public class CountriesApp
 					System.out.print("Please enter the name of the country you wish to add to our working list.");
 					userCountry = map.nextLine();
 					ReadAndWrite addCountry = new ReadAndWrite();
+					System.out.println();
 					addCountry.writeCountries(userCountry);
+					
 				break;
 				
 				case "3":

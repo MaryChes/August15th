@@ -37,7 +37,7 @@ public class ReadAndWrite
 
 		try(PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(aNewFile, true))))
 		{
-			out.print(userCountry);
+			out.print("\n" + userCountry);
 			out.close();
 		}
 		
